@@ -9,7 +9,8 @@
     />
 
     [{[ if .ReCaptcha -]}]
-    <script src="[{[ .ReCaptchaHost ]}]/recaptcha/api.js?render=explicit"></script>
+    <script type="module" src="[{[ .ReCaptchaHost ]}]/recaptcha/api.js?render=explicit"></script>
+    #<script src="[{[ .ReCaptchaHost ]}]/recaptcha/api.js?render=explicit"></script>
     [{[ end ]}]
 
     <title>
